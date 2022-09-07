@@ -5,7 +5,6 @@ with open("5 letter words.txt", mode="r") as file:
     # print(file.readlines)
     words = [word.strip() for word in file.readlines()]
 answer = random.choice(words)
-print(answer)
 
 is_game_over = False
 chances = 1
